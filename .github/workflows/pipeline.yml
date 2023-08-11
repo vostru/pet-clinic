@@ -10,3 +10,6 @@ jobs:
     
     - name: Checkout
       uses: actions/checkout@v3.5.3
+    
+    - name: Descarga codigo
+      run: ls -ltr
