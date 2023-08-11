@@ -1,0 +1,12 @@
+name: CI Java
+
+on: [push]
+
+jobs: 
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: Checkout
+      uses: actions/checkout@v3.5.3
