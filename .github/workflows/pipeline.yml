@@ -3,13 +3,5 @@ name: CI Java
 on: [push]
 
 jobs: 
-
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    
-    - name: Checkout
-      uses: actions/checkout@v3.5.3
-    
-    - name: Descarga codigo
-      run: ls -ltr
+  call-pipeline:
+    uses: Devops-Fundamentos-v5/devops-pipeline/.github/worfklows/main.yml@feature-pipeline
