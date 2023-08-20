@@ -4,4 +4,4 @@ on: [push]
 
 jobs: 
   call-pipeline:
-    uses: vostru/devops-pipeline/.github/workflows/main.yml@feature-add-pipeline
+    uses: vostru/devops-pipeline/.github/workflows/main.yml@feature-pipeline
